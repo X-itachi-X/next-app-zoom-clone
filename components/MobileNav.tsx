@@ -36,8 +36,8 @@ const MobileNav = () => {
           <Link href="/" className="flex items-center gap-1">
             <Image
               className="w-[100px]"
-              src="/icons/poom-logo.png"
-              alt="Poom logo"
+              src="/icons/Room Sem 8-logo.png"
+              alt="Room Sem 8 logo"
               width={200}
               height={75}
             />

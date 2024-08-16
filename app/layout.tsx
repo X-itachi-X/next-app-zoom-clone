@@ -8,9 +8,9 @@ import "./globals.css";
 const roboto = Roboto({ weight: "400", subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "POOM - usefull video calling app",
+  title: "Room Sem 8 - usefull video calling app",
   description:
-    "Poom - a lite version of ZOOM, which has the same functionality for private communication!",
+    "Room Sem 8 - a lite version of ZOOM, which has the same functionality for private communication!",
 };
 
 export default function RootLayout({
@@ -24,7 +24,7 @@ export default function RootLayout({
       // appearance={{
       //   layout: {
       //     socialButtonsVariant: "iconButton",
-      //     logoImageUrl: "/icons/poom-logo.png",
+      //     logoImageUrl: "/icons/Room Sem 8-logo.png",
       //   },
       //   variables: {
       //     colorText: "#fff",

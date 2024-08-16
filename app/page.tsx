@@ -9,7 +9,7 @@ import Image from "next/image";
 const Main = () => {
   const router = useRouter();
 
-  const slogan = "«POOM POOM POOM»".split(" ");
+  const slogan = "«Room Sem 8 Room Sem 8 Room Sem 8»".split(" ");
 
   const clickHandler = () => {
     router.push("/dashboard");
@@ -18,7 +18,7 @@ const Main = () => {
     <main className="h-screen relative w-full overflow-hidden bg-slate-900 flex flex-col items-center justify-center">
       <div className="absolute inset-0 w-full h-full bg-slate-900 z-20 [mask-image:radial-gradient(transparent,white)] pointer-events-none" />
 
-      <Boxes />
+      
       <div className="flex flex-col items-center">
         <motion.div
           initial={{ opacity: 0 }}
@@ -34,7 +34,7 @@ const Main = () => {
           />
         </motion.div>
         <h1 className="heading font-bold text-4xl text-green-1 relative z-20 md:text-7xl xl:text-9xl">
-          POOM
+          ROOM Sem 8 Project
         </h1>
         <div className="glassmorphism3 p-2 rounded-2xl flex-center flex-col max-sm:max-w-[300px] lg:rounded-[32px] lg:p-8">
           <p className="text-center mt-5 text-sky-1 relative z-20 text-xl xl:text-3xl">
@@ -52,7 +52,7 @@ const Main = () => {
             based on Next & Stream
           </p>
           <p className="text-center mt-5 text-sky-1 relative z-20 text-xl xl:text-3xl">
-            It&apos;s simple to use as say:{" "}
+            
             {slogan.map((el, i) => (
               <motion.span
                 initial={{ opacity: 0 }}
@@ -63,7 +63,7 @@ const Main = () => {
                 }}
                 key={i}
               >
-                {el}{" "}
+                
               </motion.span>
             ))}
           </p>

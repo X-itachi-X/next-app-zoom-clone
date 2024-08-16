@@ -76,7 +76,7 @@ const MeetingTypeList = () => {
           onMouseEnter={() => setHoveredIndex(index)}
           onMouseLeave={() => setHoveredIndex(null)}
         >
-          <AnimatePresence>
+          {/* <AnimatePresence>
             {hoveredIndex === index && (
               <motion.span
                 className="absolute inset-0 h-full w-full bg-green-1 block rounded-[20px]"
@@ -92,7 +92,7 @@ const MeetingTypeList = () => {
                 }}
               />
             )}
-          </AnimatePresence>
+          </AnimatePresence> */}
           <div className="rounded-[20px] h-full w-full overflow-hidden border border-transparent relative z-20">
             <div className="relative z-50">
               <HomeCard
